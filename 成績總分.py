@@ -1,0 +1,5 @@
+a=input('請輸入國文成績:')
+b=input('請輸入數學成績:')
+c=input('請輸入英文成績:')
+d=float(a)+float(b)+float(c)
+print('你的成績總分為:',d)
