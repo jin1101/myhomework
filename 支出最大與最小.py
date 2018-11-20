@@ -1,0 +1,9 @@
+a1=int(input('請輸入第1個月的支出金額:'))
+b1=int(input('請輸入第2個月的支出金額:'))
+c1=int(input('請輸入第3個月的支出金額:'))
+d1=int(input('請輸入第4個月的支出金額:'))
+list=[a1,b1,c1,d1]
+print('支出最多的金額為:',str(list[-1]))
+print('支出最少的金額為:',str(list[0]))
+print('支出的總額為:',int(a1+b1+c1+d1))
+print('支出的金額由小到大排序為:',str(sorted(list)))
